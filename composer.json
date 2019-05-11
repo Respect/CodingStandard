@@ -1,0 +1,23 @@
+{
+    "name": "respect/coding-standard",
+    "type": "phpcodesniffer-standard",
+    "description": "The Respect Coding Standard is a set of PHP_CodeSniffer rules applied the Respect components.",
+    "keywords": ["respect", "coding", "standard"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrique Moody",
+            "email": "henriquemoody@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1 || ^8.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+        "escapestudios/symfony2-coding-standard": "^3.8",
+        "slevomat/coding-standard": "^5.0",
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
