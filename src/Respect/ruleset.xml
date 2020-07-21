@@ -8,6 +8,10 @@
 
     <rule ref="PSR1" />
     <rule ref="PSR2" />
+    <rule ref="PSR12" />
+    <rule ref="PSR12.Files.FileHeader">
+        <exclude-pattern>*.phpt</exclude-pattern>
+    </rule>
     <rule ref="Generic.Arrays.ArrayIndent" />
     <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
     <rule ref="Generic.Formatting.SpaceAfterNot">
@@ -86,7 +90,6 @@
     <rule ref="SlevomatCodingStandard.Namespaces.UseDoesNotStartWithBackslash" />
     <rule ref="SlevomatCodingStandard.Namespaces.UseFromSameNamespace" />
     <rule ref="SlevomatCodingStandard.Namespaces.UselessAlias" />
-    <rule ref="SlevomatCodingStandard.Namespaces.UseSpacing" />
     <rule ref="SlevomatCodingStandard.PHP.OptimizedFunctionsWithoutUnpacking" />
     <rule ref="SlevomatCodingStandard.PHP.ShortList" />
     <rule ref="SlevomatCodingStandard.PHP.TypeCast" />
@@ -117,12 +120,6 @@
             <property name="spacing" value="1" />
             <property name="spacingBeforeFirst" value="0" />
             <property name="spacingAfterLast" value="0" />
-        </properties>
-    </rule>
-    <rule ref="Squiz.Strings.ConcatenationSpacing">
-        <properties>
-            <property name="spacing" value="0" />
-            <property name="ignoreNewlines" value="true" />
         </properties>
     </rule>
     <rule ref="Squiz.Strings.DoubleQuoteUsage"/>
