@@ -32,6 +32,7 @@
     <rule ref="SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation" />
     <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma" />
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility" />
+    <rule ref="SlevomatCodingStandard.Classes.ClassStructure" />
     <rule ref="SlevomatCodingStandard.Classes.DisallowLateStaticBindingForConstants" />
     <rule ref="SlevomatCodingStandard.Classes.ModernClassNameReference" />
     <rule ref="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming" />
@@ -43,16 +44,16 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.AssignmentInCondition" />
-    <rule ref="SlevomatCodingStandard.ControlStructures.ControlStructureSpacing">
+    <rule ref="SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch" />
+    <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison" />
+    <rule ref="SlevomatCodingStandard.ControlStructures.EarlyExit" />
+    <rule ref="SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing">
         <properties>
             <property name="tokensToCheck" type="array">
                 <element value="T_RETURN" />
             </property>
         </properties>
     </rule>
-    <rule ref="SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch" />
-    <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison" />
-    <rule ref="SlevomatCodingStandard.ControlStructures.EarlyExit" />
     <rule ref="SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses" />
     <rule ref="SlevomatCodingStandard.ControlStructures.NewWithParentheses" />
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator" />
@@ -104,7 +105,7 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue" />
-    <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
+    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint">
         <properties>
             <property name="allAnnotationsAreUseful" value="true" />
             <property name="enableEachParameterAndReturnInspection" value="true" />
@@ -149,5 +150,4 @@
     <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace.EmptyLines">
         <severity>5</severity>
     </rule>
-    <rule ref="Symfony.Functions.ScopeOrder" />
 </ruleset>
