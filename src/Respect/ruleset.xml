@@ -28,6 +28,7 @@
     </rule>
     <rule ref="Generic.WhiteSpace.ArbitraryParenthesesSpacing" />
     <rule ref="Generic.WhiteSpace.IncrementDecrementSpacing" />
+    <rule ref="Generic.WhiteSpace.LanguageConstructSpacing" />
     <rule ref="PEAR.WhiteSpace.ObjectOperatorIndent" />
     <rule ref="SlevomatCodingStandard.Arrays.DisallowImplicitArrayCreation" />
     <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma" />
@@ -145,7 +146,6 @@
             <property name="spacingBeforeFirst" value="0" />
         </properties>
     </rule>
-    <rule ref="Squiz.WhiteSpace.LanguageConstructSpacing" />
     <rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing" />
     <rule ref="Squiz.WhiteSpace.ObjectOperatorSpacing">
         <properties>
